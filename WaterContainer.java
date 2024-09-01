@@ -17,10 +17,9 @@ public class WaterContainer {
         return maxArea;
     }
     public static void main(String[] args) {
-        Solution solution = new Solution();
         int[] height1 = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-        System.out.println(solution.maxArea(height1));  // Output: 49
+        System.out.println("Maximum water container for height1: " +maxArea(height1));  // Output: 49
         int[] height2 = {1, 1};
-        System.out.println(solution.maxArea(height2));  // Output: 1
+        System.out.println("Maximum water container for height2: " +maxArea(height2));  // Output: 1
     }
 }
